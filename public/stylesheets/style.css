@@ -1,0 +1,77 @@
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-color: #4B4D52;
+}
+
+#centerDiv {
+	background-color: #FDF9F3;
+	height: 100%;
+	width: 550px;
+	margin: auto;
+	padding: 10px 0px 30px 0px;
+	border-radius: 25px;
+}
+
+#linkList {
+	background-color: #FDF9F3;
+	height: 100%;
+	width 900px;
+	margin: auto;
+	padding: 30px 0px 30px 0px;
+	border-radius: 25px;
+}
+
+a {
+	color: #000000;
+}
+
+#addUser {
+	width: 500px;
+}
+
+#inputChannel {
+	width: 375px;
+}
+
+#btnAddChannel {
+	width: 120px;
+}
+
+table .even {
+	background-color: #C7D0D5;
+}
+
+table .odd {
+	background-color: #93B1C6;
+}
+
+table {
+	border-spacing: 0px;
+	width: 500px;
+}
+
+th {
+	background-color: #C7D0D5;
+	padding: 5px 5px 2px 5px;
+}
+
+th:first-child {
+	border-radius: 10px 0 0 0;
+}
+
+th:last-child {
+	border-radius: 0 10px 0 0;
+}
+
+tr:first-child {
+	border-top: 1px solid #000000;
+}
+
+tr {
+	border-spacing: 0px;
+}
+
+td {
+	padding: 2px 5px 2px 5px;
+}

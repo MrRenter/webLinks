@@ -1,0 +1,16 @@
+extends layout
+block content
+	#centerDiv
+		center
+			h1= title
+			p Add and remove channels for the bot to watch	
+			#addUser
+				input#inputChannel(type='text', placeholder='Twitch channel')
+				input#btnAddChannel(type='submit', value='Add Channel')
+			br
+			#channelList
+				table
+	br
+	center
+		#linkList
+				
